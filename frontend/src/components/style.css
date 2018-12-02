@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body{
+    font-family: "Lato", sans-serif;
+}
+input{
+    width: 95%;
+    border: black;
+    padding-left: 1em;
+}
+.Chat{
+    text-align: center;
+    margin: 1em 10em 0em 10em;
+    padding: 2em 2em 4em 1em;
+    background-color: rgb(231, 231, 231);
+    border-radius: 10px;
+}
+.Send{
+    color: rgb(37, 37, 37);
+    border-radius: 20px;
+}
+.textBox{
+    padding: .5em;
+    border-radius: 20px;
+    text-align: left;
+    background-color: white;
+    width: 72%;
+    position:absolute;
+    left: 12em;
+    right: 12em;
+}
+.buttonSend{
+    background-color: white; 
+    border-radius: 20px;
+    border:none;
+    color: rgb(32, 32, 32);
+    padding: .7em;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+    right: 12em;
+    position:absolute;
+
+}
+.leftMessage{
+    padding: .5em .5em .5em 1em;
+    margin: 1em;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: .1em .1em .2em rgba(0, 0, 0, 0.404);
+}
+.rightMessage{
+    padding: .5em .5em .5em 1em;
+    margin: 1em 1em 1em 47%;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: .1em .1em .2em rgba(0, 0, 0, 0.404);
+}
+
+.nameLeft{
+    font-size: 12px;
+    color:gray;
+}
+.nameRight{
+    text-align: right;
+    padding-right: 1em;
+    font-size: 12px;
+    color:gray;
+}
